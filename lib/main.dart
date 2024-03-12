@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:waref/pages/home.dart';
 
 void main() => runApp(const HomeApp());
 
@@ -7,6 +8,12 @@ class HomeApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        fontFamily: 'Times New Roman',
+      ),
+      home: const HomePage()
+    );
   }
 }
