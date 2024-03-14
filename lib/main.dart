@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:waref/auth/register.dart';
 import 'package:waref/routes/routes.dart';
 
 void main() => runApp(const HomeApp());
@@ -13,8 +14,10 @@ class HomeApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: 'Times New Roman',
       ),
-      initialRoute: RouteManager.homePage,
+      initialRoute: RouteManager.register,
       onGenerateRoute: RouteManager.generateRoute,
+      // initialRoute: RouteManager.homePage,
+      // onGenerateRoute: RouteManager.generateRoute,
     );
   }
 }

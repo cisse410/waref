@@ -16,6 +16,7 @@ class MainAppBar extends StatelessWidget implements PreferredSizeWidget {
       ),
       backgroundColor: Colors.teal,
       centerTitle: true,
+      automaticallyImplyLeading: false,
     );
   }
 }
