@@ -16,12 +16,7 @@ class MainAppBar extends StatelessWidget implements PreferredSizeWidget {
       ),
       backgroundColor: Colors.teal,
       centerTitle: true,
-      actions: const [
-        Padding(
-          padding: EdgeInsets.symmetric(horizontal: 12.0),
-          child: Icon(Icons.light_mode_rounded),
-        ),
-      ],
+      automaticallyImplyLeading: false,
     );
   }
 }
