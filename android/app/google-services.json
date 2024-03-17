@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "309143765216",
+    "project_id": "crud-etudiant-firebase",
+    "storage_bucket": "crud-etudiant-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309143765216:android:e1a44e1f39ba53e3201085",
+        "android_client_info": {
+          "package_name": "dev.cisse410.flutter_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6XR85OTIx6uHyw2uC30vQpwJZ_2Pc-BA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309143765216:android:6930177169fef4fd201085",
+        "android_client_info": {
+          "package_name": "sn.waref.waref"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6XR85OTIx6uHyw2uC30vQpwJZ_2Pc-BA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
